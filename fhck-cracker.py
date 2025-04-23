@@ -282,7 +282,7 @@ try:
  egi = int(input(f"{C}[{N}→{C}] {N}Enter your choice : {r}"))
 except:print('');exit(print(f'{C}[{N}+{C}] {N}Enter Correct Number'))
 if egi == 1:
-    try:requests.get(f"https://api.telegram.org/bot{token}/sendvideo?chat_id={ID}&video=https://t.me/A9n9A/6&caption=Welcome To Tools..\n\nDev @mmhhn - @knowmhn")
+    try:requests.get(f"https://api.telegram.org/bot{token}/sendvideo?chat_id={ID}&video=https://t.me/xxvyx/11&caption=Welcome To Fhck area... @mmhhn - @mmmhn")
     except:pass
     pass
 elif egi == 2:
@@ -422,7 +422,7 @@ elif egi == 4:
     """)
     f1 = int(input(f"{C}[{N}→{C}] {N}Enter your choice: {r}"))
     if f1 == 1:
-        webbrowser.open('https://t.me/knowmhn')
+        webbrowser.open('https://t.me/mmmhn')
         exit()
     elif f1 == 2:
       webbrowser.open('https://t.me/mmhhn')
@@ -524,7 +524,7 @@ User  : {username}
 Data  : {date}
 Email : {username}@{jj}
 Rest  : {rest(username)}
-Dev - @mmhhn - @knowmhn
+Dev - @mmhhn - @mmmhn
 '''
     with open('F1Hits.txt','a') as ff:
       ff.write(f'{tlg}\n')
@@ -539,7 +539,7 @@ User  : {username}
 Email : {username}@{jj}
 Rest  : {rest(username)}
 Url   : https://www.instagram.com/{username}
-Dev - @mmhhn - @knowmhn
+Dev - @mmhhn - @mmmhn
 '''
     try:requests.get(f"https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text={tlg}")
     except:pass
